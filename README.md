@@ -41,13 +41,13 @@ java -jar JacorbMan.jar remove consumer [SupplierAdminID] [ProxyConsumerID]
 - View and configure notification service Qos:
 ```
 java -jar JacorbMan.jar qos
- java -jar JacorbMan.jar qos channel
- java -jar JacorbMan.jar qos channel [CHANNEL_QOS=?]
- java -jar JacorbMan.jar qos supplier
- java -jar JacorbMan.jar qos consadmin [ConsumerAdminID] [PUSH_CONSUMER_ADMIN_QOS=?]
- java -jar JacorbMan.jar qos supplier [ConsumerAdminID] [ProxySupplierID] [PROXY_SUPPLIER_QOS=?]
- java -jar JacorbMan.jar qos consumer
- java -jar JacorbMan.jar qos supadmin [SupplierAdminID] [PUSH_SUPPLIER_ADMIN_QOS=?]
- java -jar JacorbMan.jar qos consumer [SupplierAdminID] [ProxyConsumerID] [PROXY_CONSUMER_QOS=?]
+java -jar JacorbMan.jar qos channel
+java -jar JacorbMan.jar qos channel [CHANNEL_QOS=?]
+java -jar JacorbMan.jar qos supplier
+java -jar JacorbMan.jar qos consadmin [ConsumerAdminID] [PUSH_CONSUMER_ADMIN_QOS=?]
+java -jar JacorbMan.jar qos supplier [ConsumerAdminID] [ProxySupplierID] [PROXY_SUPPLIER_QOS=?]
+java -jar JacorbMan.jar qos consumer
+java -jar JacorbMan.jar qos supadmin [SupplierAdminID] [PUSH_SUPPLIER_ADMIN_QOS=?]
+java -jar JacorbMan.jar qos consumer [SupplierAdminID] [ProxyConsumerID] [PROXY_CONSUMER_QOS=?]
 ```
 
